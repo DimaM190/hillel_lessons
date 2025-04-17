@@ -1,1 +1,1 @@
-print(   id('ergergegre')  )
+print(id("ergergegre"))
