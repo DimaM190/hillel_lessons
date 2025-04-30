@@ -14,7 +14,7 @@ user_input = pw_input(type="text", required=True, minlength=4, maxlength=4)
 if user_input.isdigit():
     user_input = list(user_input)
     put_success(
-        f"Your inverted number:\n{user_input[3]}\n{user_input[2]}\n{user_input[1]}\n{user_input[0]}"
+        f"Your inverted number:\n{user_input[0]}\n{user_input[1]}\n{user_input[2]}\n{user_input[3]}"
     )
 else:
     put_success("Error: You have extraneous characters")
