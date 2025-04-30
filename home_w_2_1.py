@@ -18,6 +18,3 @@ if user_input.isdigit():
     )
 else:
     put_success("Error: You have extraneous characters")
-
-
-pass
