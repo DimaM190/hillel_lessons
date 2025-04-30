@@ -7,7 +7,10 @@ from pywebio.output import put_html, put_success
 # HEADER
 put_html("<hi>Enter a 4-digit number</h1>")
 
+# INPUT SECTION
 user_input = pw_input(type="text", required=True, minlength=4, maxlength=4)
+
+# CHECK and OUTPUT SECTION
 if user_input.isdigit():
     user_input = list(user_input)
     put_success(
