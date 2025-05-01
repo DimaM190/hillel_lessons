@@ -24,3 +24,4 @@ if user_input.isdigit():
     put_success(f"Your reserved number:\t{reversed_number}")
 else:
     put_success("Error: You have extraneous characters")
+pass
